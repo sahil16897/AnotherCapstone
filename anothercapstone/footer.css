@@ -1,0 +1,63 @@
+.contact{
+  background-color:white;
+  border-radius:5px;
+  box-shadow: -3px 8px 5px -3px rgba(235,228,235,1);
+}
+.contact input{
+  width: 46.5%;
+  height:60px;
+  margin-bottom: 3%;
+  border-radius:5px;
+  border:none;
+  background:rgba(240,240,240,0.6);
+
+}
+.bg-footer{
+  background: #42E8E0;
+}
+.contact input::placeholder{
+ 
+  padding-left: 3px;
+  
+}
+.contact textarea{
+    width: 95.8%;
+    background:rgba(240,240,245,0.6);
+    border-radius:5px;
+    padding:2%;
+    height:115px;
+    border:none;
+    
+}
+
+.contact input,textarea:focus{
+  outline:none;
+}
+.contact-footer a{
+  color:inherit !important;
+  text-decoration: none !important;
+
+
+}
+.icon-size2 {
+  font-size:50px !important;
+
+}
+
+.scheme-text{
+  color:#442F4D;
+}
+.social-icon{
+  border:2px solid white;
+  margin:2px;
+  padding:3px;
+  height: 45px;
+  width: 50px;
+  font-size: 30px !important;
+}
+.social-icon:hover{
+  color:blue;
+}
+.bg-schema{
+  background-color:#6F0C14;
+}

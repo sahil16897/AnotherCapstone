@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> Home	</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="card.css">
+	<link rel="stylesheet" href="footer.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.hero{
+	background-image:url('background.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+.nav-link{
+	color:lightgrey !important;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding:3px 5px 3px 5px;
+	font-size: 22px;
+	font-weight: 600;
+
+}
+.nav-link:hover{
+	background-color: rgba(20,20,20,.8);
+}
+.text-scheme{
+	
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	
+}
+.btn-round{
+	border-radius:15rem;
+}
+.bg-sehme{
+	background-color: #11074F;
+}
+.onTop{
+	position: sticky;
+	top:0;
+	background:transparent;
+	padding:15px 0 15px 0;
+
+}
+.onTop .logo{
+	height:80px;
+}
+.onTopUntouch{
+	position: fixed;
+	top:0;
+	background:#140B56;
+	padding:10px 0 10px 0;
+	z-index:999;
+
+}
+.onTopUntouch .logo{
+	height:50px;
+}
+
+</style>
+
+
+
+</head>
+<body class="bg-light">
+<div class="hero pb-5"id='home'>
+<nav class="navbar navbar-expand-lg navbar-light onTop w-100 "id="nav">
+  <a class="navbar-brand" href="#home"><img src="logo.png"
+  	 class="ml-5 logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fa fa-bars text-white" style="font-size:40px;"></i>
+  </button>
+  <div class="collapse navbar-collapse pl-3" id="navbarNav">
+    <ul class="navbar-nav ml-auto mr-5">
+      <li class="nav-item">
+        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#team">Meet Team</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#contact" >Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="container  pb-4" >
+		
+		<div class="row">
+			<div class="col-lg-5  d-block d-sm-block  d-md-none d-lg-none mt-4">
+			<img class="ml-5" src="acggraphics.svg" height="300" >
+		</div>
+		<div class="col-lg-5 mt-5 text-white ">
+			<h1 class="mt-5 text-scheme">What is Meta Machine Modelling?</h1> 
+			<p class="mt-2 text-scheme">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ea, repudiandae at laboriosam eius explicabo quaerat, voluptates, aliquid voluptatibus rem eos. Beatae nulla id velit dignissimos iure ipsam! Ab, voluptatem.</p>
+			<a href="#about"  class="btn btn-outline-light btn-round mt-3 px-4">Know More</a>	
+		</div>
+		<div class="col-lg-1"></div>
+		<div class="col-lg-5 d-none d-md-block d-lg-block d-xl-block mt-4">
+			<img src="acggraphics.svg" >
+		</div>
+
+		</div>
+
+
+
+</div></div>
+<div class="container-fluid py-4 bg-white text-primary" id='about'>
+	<h1 class="text-center ">What We do? </h1>
+	<div class="row mx-2 py-2">
+	<div class="col-lg-4 text-center mt-2 ">
+	
+	
+	<img src = "data.png"      style="height:300px">
+	<h4 class="text-scheme mt-1">First we Ask For Data Set</h4>
+	</div>
+<div class="col-lg-4 text-center mt-2 ">
+	
+	
+	<img src = "processing.png"         style="height:300px">
+	<h4 class="text-scheme mt-1">Then We Do Processing</h4>
+</div>
+<div class="col-lg-4 text-center mt-2 ">
+	
+	
+	<img src = "result.png"         style="height:300px">
+	<h4 class="text-scheme mt-1">Then We Show the Best algorithm with Accuracy for the data set</h4>
+</div>
+
+
+
+	</div>
+<center>
+<a href="try.html"  class="btn  btn-outline-danger btn-round mt-3 px-4">Try This Out</a></center>	
+	</div>
+<div class="our-webcoderskull container-fluid hero text-white py-4" id="team">
+	<h1 class="text-center mt-4">Meet Our Team </h1>
+	<p class="text-center justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, ex, error. Perferendis nemo placeat ipsum iusto rerum quas 
+
+ <ul class="row py-3">
+      <li class="col-12 col-md-6 col-lg-3">
+          <div class="cnt-block equal-hight" style="height: 349px;">
+            <figure><img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt=""></figure>
+            <h3><a href="http://www.webcoderskull.com/">Web coder skull</a></h3>
+            <p>Freelance Web Developer</p>
+            <ul class="follow-us clearfix">
+              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+      </li>
+      <li class="col-12 col-md-6 col-lg-3">
+          <div class="cnt-block equal-hight" style="height: 349px;">
+            <figure><img src="http://www.webcoderskull.com/img/team1.png" class="img-responsive" alt=""></figure>
+            <h3><a href="#">Kappua </a></h3>
+            <p>Freelance Web Developer</p>
+            <ul class="follow-us clearfix">
+              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+      </li>
+      <li class="col-12 col-md-6 col-lg-3">
+          <div class="cnt-block equal-hight" style="height: 349px;">
+            <figure><img src="http://www.webcoderskull.com/img/team4.png" class="img-responsive" alt=""></figure>
+            <h3><a href="http://www.webcoderskull.com/">Manish </a></h3>
+            <p>Freelance Web Developer</p>
+            <ul class="follow-us clearfix">
+              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+       </li>
+      <li class="col-12 col-md-6 col-lg-3">
+          <div class="cnt-block equal-hight" style="height: 349px;">
+            <figure><img src="http://www.webcoderskull.com/img/team2.png" class="img-responsive" alt=""></figure>
+            <h3><a href="http://www.webcoderskull.com/">Atul </a></h3>
+            <p>Freelance Web Developer</p>
+            <ul class="follow-us clearfix">
+              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+      </li>
+    </ul>
+  </div>
+</div>	
+<div class="container-fluid py-5 footer bg-sehme">
+<div class="mt-2 text-white pb-4 " id="contact"style="z-index:9999;">
+<h1 class="text-center mb-4"> Stuck Somewhere Ask For Help</h1>
+
+<div class="row mt-3 pt-2">
+<div class="col-md-1"></div>
+<div class="col-md-5 text-center mr-2 ">
+  <h5> <i class="fa icon-size2 fa-phone"></i></h5>
+  <p> 9898987547</p>
+  <h5><a style="text-decoration: none;color:white;" href="https://www.google.com/maps/place/Lovely+Professional+University/@31.253603,75.703669,15z/data=!4m2!3m1!1s0x0:0x4cc934c58d0992ec?sa=X&ved=2ahUKEwjFvY-y8fLhAhUWTY8KHYVMDV4Q_BIwH3oECAoQCA" target="blank"> <i class="fa icon-size2 fa-map-marker"></i></a></h5>
+  <p></p>
+  <h5><i class="fa fa-envelope-open icon-size2"></i></h5>
+  <p>hunny@gmail.com</p>
+  <p class="mt-5">
+  <i class="fa fa-facebook  social-icon"></i>
+  <i class="fa fa-twitter  social-icon"></i>
+  <i class="fa fa-google-plus  social-icon"></i>
+  <i class="fa fa-linkedin  social-icon"></i></p>
+</div><div class="col-md-5">
+  
+  
+  <div class="contact px-1 py-4 mt-4 ">
+    <h4 class="text-center text-primary pb-2"> Leave the Message </h4>
+<form class="mt-2 ml-2">
+<input type="text" placeholder="Name" style="margin-right:0.4%" class="pl-2">  
+ <input type="email" placeholder="Email" style="margin-left: 1.2%" class="pl-2">
+
+ <br>
+<textarea placeholder="Your Question"></textarea>
+<button class="btn bg-schme text-white py-3 " style="width:95.8%">Submit</button>
+</form></div></div>
+ 
+</div>
+<center>
+        <div class="mt-5"><img class="animated infinite pulse" src="logo.png" alt="Logo" style="height:80px">
+          <h3 class="mt-1 wow fadeInDown" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeInDown; animation-delay: 0.2s;">All rights reserved</h3>
+
+  </div>
+      </center>
+      <h4 class="text-center mt-3 wow fadeInDown" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeInDown; animation-delay: 0.2s;">Made With <i class="fa wow pulse infinite text-danger fa-heart" style="visibility: visible; animation-name: pulse;"></i> by<a style="text-decoration: none;color:white;"href="https://linkedin.com/in/hunny-gupta/" > Hunny</a> </h4>
+
+</div>
+</div>
+</div>
+<script>
+
+$(document).ready(function(){
+ $(window).scroll(function() {
+	 if ($(document).scrollTop() > 20) {
+			$("#nav").addClass("onTopUntouch");
+			$("#nav").removeClass("onTop");
+			
+
+	 } else {
+
+		 $("#nav").addClass("onTop");
+			$("#nav").removeClass("onTopUntouch");
+ }
+ });
+ });		 
+
+
+
+
+
+</script>
+
+
+
+</body>
+</html>
