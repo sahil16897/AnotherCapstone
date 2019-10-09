@@ -1,1 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="card.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      .hero {
+        background-image: url("background.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+      }
+      .nav-link {
+        color: lightgrey !important;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        padding: 3px 5px 3px 5px;
+        font-size: 22px;
+        font-weight: 600;
+      }
+      .nav-link:hover {
+        background-color: rgba(20, 20, 20, 0.8);
+      }
+      .text-scheme {
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+      }
+      .btn-round {
+        border-radius: 15rem;
+      }
+      .bg-sehme {
+        background-color: #11074f;
+      }
+      .onTop {
+        position: sticky;
+        top: 0;
+        background: transparent;
+        padding: 15px 0 15px 0;
+      }
+      .onTop .logo {
+        height: 80px;
+      }
+      .onTopUntouch {
+        position: fixed;
+        top: 0;
+        background: #140b56;
+        padding: 10px 0 10px 0;
+        z-index: 999;
+      }
+      .onTopUntouch .logo {
+        height: 50px;
+      }
+      .wraper {
+        
+        margin-top: 40px;
+        height:400px;
+        
+      }
+      .carousel-item {
+        height:340px;
+        overflow-y:auto;
+      }
+      .feild {
+        height: 50px;
+        width:100px;
+      }
+      .file-upload {
+        width:400px;
+       
+        text-align: center;
+      }
+      .fileInput {
+        width:100%;
+        height:50px;
+        padding:9px;
+       
+        margin:15% 0 5px 0px;
+      }
+      .select-algorthim {
+         width:400px;
+         
+
+        
+        text-align: center;
+      }
+      .select-params {
+        
+         
+      }
+      .metric-form {
+         width:400px;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hero " id="home">
+      <nav class="navbar navbar-expand-lg navbar-light onTop w-100 " id="nav">
+        <a class="navbar-brand" href="#home"
+          ><img src="logo.png" class="ml-5 logo"
+        /></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa fa-bars " style="font-size:40px;"></i>
+        </button>
+        <div class="collapse navbar-collapse pl-3" id="navbarNav">
+          <ul class="navbar-nav ml-auto mr-5">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#team">Meet Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="index.html#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container  mt-5">
+        <div class="wraper col-lg-8 bg-light  mx-auto">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel  slide"
+            data-ride="carousel"
+            data-interval="false"
+          >
+            <div class="carousel-inner  p-2">
+              <div class="carousel-item active ">
+               <div class="mx-auto text-center 50 ">
+                  <div class="sticky-top bg-light p-1">
+                    
+                    <h3 class="text-center w-80  ">
+                  
+                      Instruction</h3>
+                  </div>
+                  <p class="text-center">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto sunt aperiam eius quo at sed harum. Dolore labore
+                    dolores quaerat molestiae architecto tempore cupiditate ea eum, rem voluptates beatae incidunt.
+                  </p>
+                  <button class="btn btn-primary" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    Next
+                  </button>
+               </div>
+              </div>
+              
+              <div class="carousel-item ">
+                <div class="sticky-top bg-light p-1">
+                  <button class="btn btn-primary float-left " href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    Go back
+                  </button>
+                  <h3 class="text-center w-80  ">
+                
+                    Select the File</h3>
+                </div>
+                <div class="file-upload bg-light  mx-auto">
+                  <form id="file"  enctype="multipart/form-data">
+                    <input
+                    type="file"
+                    class="  form-control fileInput "
+                    id="customFile"
+                    name="filename"
+                    required
+                    accept=".xlsx, .xls, .csv"
+                  />
+                  <input type="submit" class="btn btn-primary" value="next" />
+                 
+                  </form>
+                  </div>
+                </div>
+                <div class="carousel-item ">
+                  <div class="sticky-top bg-light p-1">
+                    <button class="btn btn-primary float-left " href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      Go back
+                    </button>
+                    <h3 class="text-center w-80  ">
+                  
+                      Select the Algorthim</h3>
+                  </div>
+                <div class="select-algorthim  my-5 mx-auto">
+                 
+                 
+                  <select class="form-control my-3" id="exampleFormControlSelect1">
+                    <option value="LogisticRegression"> Logistic Regression</option>
+                    <option value="DecisionTree"> Decision Tree</option>
+                    <option value="RandomForest"> Random Forest</option>
+                    <option value="SVM"> SVM</option>
+                    <option value="KNN"> KNN</option>
+                    <option value="NaiveBayes"> Naive Bayes</option>
+                    <option value="Xgboost"> Xgboost</option>
+                    <option value="LightGBM"> LightGBM</option>
+                    <option value="Catboost"> Catboost</option>
+                    <option value="Adaboost">Adaboost</option>
+                  </select>
+                  <button class="btn btn-primary " id="save">next</button>
+                  
+                </div>
+               
+                </div>
+                <div class="carousel-item ">
+                  <div class="sticky-top bg-light p-1">
+                    <button class="btn btn-primary float-left " href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      Go back
+                    </button>
+                    <h3 class="text-center w-80  ">
+                
+                      Select the Options</h3>
+                  </div>
+                  <div class="select-params p-2 text-center mt-5 bg-light " id="paramformsection">
+                    <button class="btn-primary btn " id="Default">Default </button>
+                    <button class="btn-primary btn " id="Manual">Manual </button>
+                
+                  </div>
+                
+                </div>
+
+                <div class="carousel-item ">
+                  <div class="sticky-top bg-light p-1">
+                    <button class="btn btn-primary float-left " href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      Go back
+                    </button>
+                <h3 class="text-center w-80  ">
+                  
+                  Select the Parameter</h3></div>
+                  <div class="select-params p-2  bg-light " id="paramformsection">
+                    <form id="paramform" enctype="multipart/form-data">
+                    
+                    
+                    </form>
+
+                  </div>
+                
+                </div>
+                <div class="carousel-item ">
+                  <div class="sticky-top bg-light p-1">
+                    <button class="btn btn-primary float-left prev" href="#carouselExampleIndicators" role="button">
+                      Go back
+                    </button>
+                    <h3 class="text-center w-80  ">
+                  
+                      Select the Metrics</h3>
+                  </div>
+                  <div class="metric-form mx-auto   ">
+                    <form class=" mx-auto p-4 mt-2 w-50 " id="metric">
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input checkinput" name="metric-checkbox"  value="Accuracy" />
+                        Accuracy
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input checkinput" name="metric-checkbox"  value="F1score" />
+                        F1score
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input checkinput" name="metric-checkbox"  value="Jaccaudscore" />
+                        Jaccaudscore
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input checkinput" name="metric-checkbox"  value="Logloss" />
+                        Logloss
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input checkinput" name="metric-checkbox"  value="Precision" />
+                        Precision
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input checkinput" name="metric-checkbox"  value="Recall" />
+                        Recall
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input checkinput" name="metric-checkbox"  value="ROC_AUCscore" />
+                        ROC_AUCscore
+                      </label>
+                    </div>
+                    <div class="mt-3">
+                    <button class="btn btn-primary" id="selectAll">SelectAll</button>
+                    <input type="submit" value="Next" class="btn btn-primary ">
+                    </div>
+                    </form>
+                  </div>
+                
+                </div>
+                <div class = "carousel-item">
+                  <div class="sticky-top bg-light p-1">
+                    <button class="btn btn-primary float-left " href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      Go back
+                    </button>
+                    <h3 class="text-center w-80  ">
+                      result
+                     </h3>
+                  </div>
+                </div>
+                
+              </div>
+              
+             
+            </div>
+            <!-- <button class=" float-bottom   bg-light">
+             
+              <a class="" href="#carouselExampleIndicators" role="button" data-slide="next">
+                Next
+                <span class="sr-only">Previous</span>
+              </a>
+            </button> -->
+          </div>
+         
+        </div>
+
+      </div>
+    </div>
+  </body>
+<script>
+  function prefareForm(fields) {
+    console.log(fields);
+    let inputfields =[]
+    if (fields.length>0){
+    for (var i = 0; i < fields.length; i++) {
+      inputfields.push( `<div class="col-lg-6"><label>${fields[i]}</label></label><input class="field form-control" required type="text" id=${fields[i]}/></div>`)
+    }
+     return inputfields
+     }
+     else{
+     return "slide"
+     }
+
+
+
+   
+  }
+  function checkIsExcel(file) {
+      if ((!/.*\.xlsx$/.test(file.name)) && (!/.*\.xls$/.test(file.name)) && (!/.*\.csv$/.test(file.name))) {
+        return false;
+      }
+      return true;
+    }
+  $(document).ready(function () {
+    let fieldSelected="";
+    let isdefault= false
+    const data = {
+      LogisticRegression: ["C Parameter"],
+      DecisionTree: ["Max-depth"],
+      RandomForest: ["N-estimators", "Depth"],
+      SVM: ["C Parameter"],
+      KNN: ["Neighbours"],
+      Xgboost: ["N-estimators", "Depth"],
+      LightGBM: ["Number of leaves", "Depth", "Number of iterations"],
+      Catboost: ["Number of iterations", "Depth"],
+      Adaboost: ["N-estimators", "Learning rate"],
+      NaiveBayes:[]
+    }
+  
+    
+    $("#file").submit(()=>{
+      event.preventDefault()
+      if(checkIsExcel($('.fileInput')[0].files[0]))
+     
+      {$('.carousel').carousel('next')}
+      else {
+        alert("please upload csv,xlxs")
+      }
+    })
+     $("#metric").submit(() => {
+      event.preventDefault()
+       const k =$(".checkinput:checked").length;
+       if(k>0){
+         $('.carousel').carousel('next')
+       }
+       else {
+         alert("please check at least one")
+       }
+      
+
+      
+    })
+    $("#selectAll").click(()=>{
+       event.preventDefault()
+      $(".checkinput").prop('checked', true);
+    })
+    $("#save").click(()=>{
+      let selectValue = $("#exampleFormControlSelect1").val();
+      const selectText = $("#exampleFormControlSelect1").find(":selected").text()
+      fieldSelected = selectValue
+      
+      const prepareformed = prefareForm(data[selectValue])
+      if(prepareformed==="slide"){
+       
+         $('.carousel').carousel('next')
+      
+      }
+      else{
+      $("#paramform").html("")
+      $("#paramform").append(`<div class="container "><div class="row ">${prepareformed.join("")}</div> <input type="submit" class="btn mt-3 btn-primary"/></div>`)
+       $('.carousel').carousel('next')
+      }
+      
+
+
+    })
+     $("#paramform").submit(() => {
+      event.preventDefault()
+     
+      
+
+      $('.carousel').carousel('next')
+    })
+    $(".prev").click(()=>{
+      if(fieldSelected===""){
+
+        $('.carousel').carousel('prev')
+      }
+       else if(isdefault){
+          if (data[fieldSelected].length > 0) {
+          $('.carousel').carousel(3)
+        }
+        else {
+          $('.carousel').carousel(3)
+        }
+       }
+       
+       else {
+         if(data[fieldSelected].length>0){
+           $('.carousel').carousel('prev')
+         }
+         else{
+           $('.carousel').carousel(3)
+         }
+       }
+    })
+  
+  $("#Default").click(()=>{
+    isdefault=true
+   $('.carousel').carousel(5)
+  })
+  $("#Manual").click(() => {
+    isdefault=false
+    if(data[fieldSelected].length>0)
+      {$('.carousel').carousel('next')}
+    else{
+      $('.carousel').carousel(5)
+    }  
+    })
+  
+  })
+</script>
+
+
+
+
+
+</html>
 
